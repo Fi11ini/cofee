@@ -33,15 +33,24 @@ a {
 }
 
 .header__lng {
-    color: white;
-    font-weight: 600;
-    text-transform: uppercase;
+    display: flex;
 }
 
 .header__lng a {
+    margin-right: 10px;
     color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 10px;
 }
 
 .header__lng a.active {
     color: #C7A17A;
+}
+
+.header__phone {
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
 }
