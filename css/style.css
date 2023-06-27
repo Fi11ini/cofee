@@ -1,0 +1,47 @@
+*,*:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #020204;
+    font-family: 'Jost', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #32323D;
+}
+
+.header__line {
+    border-bottom: 1px solid #32323D;
+}
+
+.header__line-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+}
+
+.header__lng {
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header__lng a {
+    color: white;
+}
+
+.header__lng a.active {
+    color: #C7A17A;
+}
