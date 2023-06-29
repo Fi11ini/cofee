@@ -6,10 +6,42 @@ body {
     margin: 0;
     background-color: #020204;
     font-family: 'Jost', sans-serif;
+    color: white;
 }
 
 a {
     text-decoration: none;
+    color: #fff;
+}
+
+.btn {
+    min-width: 200px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    letter-spacing: 0 1em;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: background-color .2s ease;
+}
+
+.btn-main {
+    background-color: #C7A17A;
+}
+
+.btn-main:hover {
+    background-color: #aa8968;
+}
+
+.btn-secondary {
+    border: 1px solid #666681;
+    transition: background-color .2s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #666681;
 }
 
 .container {
@@ -138,4 +170,46 @@ a {
     position: absolute;
     top: -3px;
     right: -3px;
+}
+
+
+/* FINISH HEADER */
+
+
+
+.intro {
+    background: no-repeat;
+    background-size: cover;
+}
+
+.intro__wrapper {
+    padding: 20px 0;
+    min-height: 720px;
+    display: flex;
+    align-items: center;
+}
+
+.intro__block {
+    max-width: 600px;
+}
+.intro__title {
+    margin: 0 0 35px;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+
+.intro__text {
+    margin: 0 0 35px;
+    font-size: 18px;
+}
+
+.intro__actions {
+    display: flex;
+}
+
+
+.intro__actions .btn-main{
+    margin-right: 20px;
 }
