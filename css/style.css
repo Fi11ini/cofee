@@ -174,6 +174,7 @@ a {
 
 
 .intro {
+    margin-bottom: 60px;
     background: no-repeat;
     background-size: cover;
     position: relative;
@@ -222,3 +223,132 @@ a {
 .intro__actions .btn-main{
     margin-right: 20px;
 }
+
+.info__block {
+    margin-bottom: 80px;
+    display: flex;
+    background-color: #14141D;
+    border-radius: 10px;
+}
+
+.info__img {
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info__img-wrapper {
+    position: relative;
+}
+
+.info__img-wrapper:after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: rgba(2, 2, 4, 0.55);
+}
+
+.info__item {
+    padding: 30px;
+}
+.info__title {
+    padding-bottom: 15px;
+    font-size: 24px;
+    font-family: Jost;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.45;
+}
+
+
+.info__text {
+    max-width: 500px;
+    color: #DFDFDF;
+    font-size: 18px;
+    font-family: Jost;
+}
+/* finish info */
+
+
+.block__title {
+    margin: 0 0 30px;
+    margin-bottom: 40px;
+    color: #FFF;
+    font-size: 40px;
+    font-family: Jost;
+    font-weight: 900;
+    line-height: 144%;
+    text-transform: uppercase;
+}
+
+/* products */
+
+.products__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.products__block {
+    width: 33.33%;
+    padding: 0 10px;
+}
+.products__item {
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    background: #14141D;
+    transition: background-color .2s ease;
+}
+
+.products__item:hover {
+    background-color: #20202f;
+}
+
+.products__img {
+    max-height: 200px;
+    min-width: 100px;
+    display: block;
+    margin: 0px auto 40px;
+}
+
+.products__title {
+    margin: 0 0 25px;
+    color: #FFF ;
+    font-size: 24px;
+    font-family: Jost;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.products__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.products__price {
+    display: flex;
+    padding-right: 20px;
+    color: #FFF;
+    font-size: 18px;
+    font-family: Jost;
+    text-transform: uppercase;
+}
+
+.products__price del {
+    margin-left: 30px;
+    color: #818181;
+}
+.products__favorite {
+    background: none;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* /products */
