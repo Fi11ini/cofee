@@ -126,10 +126,6 @@ a {
     ;
 }
 
-.logo {
-
-}
-
 .logo img {
     height: 54px;
 }
@@ -180,6 +176,17 @@ a {
 .intro {
     background: no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+.intro::after {
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(2, 2, 4, 0.55);
 }
 
 .intro__wrapper {
@@ -187,6 +194,8 @@ a {
     min-height: 720px;
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 2;
 }
 
 .intro__block {
